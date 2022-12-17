@@ -1,0 +1,39 @@
+
+/*Definire le footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  
+  /*Le mettre au bon endroit*/
+  .piedUn {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  /*Mettre de l'espace*/
+  .piedUn p {
+    width: 250px;
+    padding: 0 50px 0 50px;
+  }
+
+  /*Le mettre au centre*/
+  .sociaux p {
+    display: inline-flex;
+    align-self: center;
+  }
+  
+  /*Mettre de l'espace*/
+  .piedDeux p {
+    width: 50%;
+  }
+
+  /*Changer le charactaire et mettre une ligne en sous des mots*/
+  .piedDeux span {
+    font-weight: bold;
+    text-decoration: underline;
+  }

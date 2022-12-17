@@ -1,0 +1,29 @@
+
+/*Definire le tableau et le mettre au centre*/
+.tableau{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border: 1px solid gray;
+    font-size: 30px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 16%;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.411);
+    
+    }
+    
+    /*Mettre de l'espace, mettre un border, changer la couleur de texte et changer le font*/
+    .tableau th{
+        padding: 15px;
+        border: 1px solid cyan;
+        color: rgb(88, 194, 255);
+        font-family: monospace;
+    }
+    
+    /*Mettre de l'espace changer la couleur du font and mettre un bordure*/
+    .tableau td{
+        padding: 4px;
+        border: 1px solid cyan;
+        color: gold;
+    }

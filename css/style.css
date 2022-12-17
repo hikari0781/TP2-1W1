@@ -1,0 +1,276 @@
+/*Coller tout ensemble*/
+body{
+    margin: 0;
+    
+}
+
+/*Coller toute ensemble*/
+h1{
+    margin: 0;
+}
+
+/*permet le defillement(scroll) qui descent lentement*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*Placer le titre au centre et le definire*/
+.titre1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    top: 43%;
+    right: 48%;
+}
+
+/*Placer l'image au centre et faire un transition and transformation*/
+.titre1 img{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+        /* Transformation origine */
+        transform: scale(1);
+        /* Transition */
+        transition: all 1s;
+}
+
+/*Quand tu hover devant le titre, sa agrandi*/
+.titre1 img:hover{
+    transform: scale(1.5);
+}
+
+/*Definire le text*/
+.titre2{
+    position: absolute;
+    display: flex;
+    flex: 0 1 57%;
+    flex-direction: row;
+    top: 0;
+    right: 0;
+}
+
+/*Mettre le titre a droite et en haut*/
+.titre2 h2{
+    margin: 0;
+    display: flex;
+    flex: 0 1 55%;
+    font-size: 35px;
+    flex-wrap: wrap;
+    font-family: fantasy;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 20px;
+}
+
+/*Definir le troisieme titre en bas a gauche*/
+.titre3{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 41%;
+}
+
+/*Changer le font*/
+.titre3 h3{
+    margin: 0;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Definire le quatrieme titre et mettre en bas a droite*/
+.titre4{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    font-size: 1.1rem;
+    width: 19%;
+}
+
+/*Changer le font*/
+.titre4 h4{
+    margin: 0;
+    padding: 0 5px;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Mettre de l'espace entre les sections*/
+section{
+    display: flex;
+    min-height: 100vh;    
+    height: 100vh;
+    font-size: 30px;
+    font-family: cursive;
+    flex-direction: column;
+}
+
+/*Changer l'image de l'arriere plan et mettre que sa couvert toute*/
+#accueil{
+    background-image: url('https://i.redd.it/aaib8cgjd9u21.png');
+    background-size: cover;
+    
+}
+
+/*Changer l'image de l'arriere plan et mettre que sa couvert toute*/
+#article{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1ce7fa6-8ff0-4653-b2ac-2e616c494874/dfkge0y-8a316166-9d47-4035-95b8-d92263172f7c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExY2U3ZmE2LThmZjAtNDY1My1iMmFjLTJlNjE2YzQ5NDg3NFwvZGZrZ2UweS04YTMxNjE2Ni05ZDQ3LTQwMzUtOTViOC1kOTIyNjMxNzJmN2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9p8B_uqvHhWp-vA7Vy_ZDUZvYfAqfynUX5tABVQPOs0');
+    background-size: cover;
+
+}
+
+/*Definire le texte, le mettre au centre, changer le font size*/
+.texte p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 91%;
+    flex-wrap: wrap;
+    flex: 0 1 116%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+/*Definire le texte, mettre en haut a droite*/
+.texte{
+    position: absolute;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    right: 0;
+    width: 62%;
+    background-color: rgba(0, 0, 0, 0.305);
+    font-size: 29px;
+    flex-wrap: wrap;
+}
+
+/*Mettre un display a l'image*/
+#article figure img{
+    display: flex;
+}
+
+/*Changer l'image de l'arriere plan et mettre que sa couvert toute*/
+#galerie{
+    display: flex;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1ce7fa6-8ff0-4653-b2ac-2e616c494874/dfkcl7v-82e0e520-4b68-480e-b58e-af2cced8bae0.png/v1/fill/w_1024,h_626,q_80,strp/22_by_silverfox_chan_dfkcl7v-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjI2IiwicGF0aCI6IlwvZlwvYTFjZTdmYTYtOGZmMC00NjUzLWIyYWMtMmU2MTZjNDk0ODc0XC9kZmtjbDd2LTgyZTBlNTIwLTRiNjgtNDgwZS1iNThlLWFmMmNjZWQ4YmFlMC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LdcL-pWhffNrZRtnHTl2BW2DQBeH8qIF3mS9qtOadX4');
+    background-size: cover;
+}
+
+/*Mettre le caption au centre*/
+#galerie figcaption{
+    text-align: center;
+}
+
+/*Definire l'inscription et le mettre au centre*/
+#inscription{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+/*Changer l'image de l'arriere plan et mettre que sa couvert toute et mettre au centre*/
+#tableau{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1ce7fa6-8ff0-4653-b2ac-2e616c494874/dfkge6m-9337114a-fc78-4f8f-9374-1f798a78cdac.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExY2U3ZmE2LThmZjAtNDY1My1iMmFjLTJlNjE2YzQ5NDg3NFwvZGZrZ2U2bS05MzM3MTE0YS1mYzc4LTRmOGYtOTM3NC0xZjc5OGE3OGNkYWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.30tBlV3rp-HxhNm_0iPobh9p9BZx5S_Zfgn7vsrcpYc');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/*positioner le menu au bon endroit*/
+nav{
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;   
+}
+
+/*Garder le nav au meme endroit et changer le size*/
+nav a{
+    display: fixed;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/*Transformation du menu*/
+#chck-burger:checked ~ .menu{
+    transform: translate(40px);
+    
+}
+
+/*Transformation du menu*/
+#chck-burger:checked ~ #burger{
+    transform: rotate(90deg);
+}
+
+/*Faire disparaitre le menu*/
+#chck-burger{
+    display: none;
+}
+
+/*Mettre le menu en haut a droite et garder dans le meme endroit peut eimport our 
+on scroll*/
+#burger{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    transition: transform .25s;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.365);
+}
+
+/*Changer l'image de l'arriere plan et mettre que sa couvert toute, mettre le menu a gauche en haut
+fair un transformation et transition*/
+.menu{
+    border: 1px solid gray;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1ce7fa6-8ff0-4653-b2ac-2e616c494874/dfkd0n5-1f0cbf58-cc7d-4b3d-bff1-f40fa2b857c2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExY2U3ZmE2LThmZjAtNDY1My1iMmFjLTJlNjE2YzQ5NDg3NFwvZGZrZDBuNS0xZjBjYmY1OC1jYzdkLTRiM2QtYmZmMS1mNDBmYTJiODU3YzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hj0zotAxqNKXkpzV0fslADrAkBXiHUjwUgvLx5RzmZ0');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin-top: 20px;
+    transform: translate(-100vh);
+    transition: transform .25s;
+    padding: 0 6px;
+    border-radius: 20px;
+}
+
+/*Changer le size*/
+.menu a{
+    display: fixed;
+    font-family: monospace;
+}
+
+/*Changer la couleur du texte, mettre de l'espace*/
+a{
+    color: rgb(255, 136, 1);
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.318);
+    
+}
+
+/*Changer la couleur quand la souris et pare dessus le texte*/
+a:hover{
+    color: rgb(13, 175, 250);
+}

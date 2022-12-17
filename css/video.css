@@ -1,0 +1,32 @@
+
+/*Changer l'image de l'arriere plan*/
+#video{
+    display: flex;
+    align-items: center;
+    background-image: url('https://static.wikia.nocookie.net/fategrandorder/images/6/62/Little_big_tengu_bg_4.png/revision/latest/scale-to-width-down/1000?cb=20210210160943');
+    background-size: cover;
+    color: rgba(245, 245, 245, 0.521);
+}
+
+/*mettre de l'espace entre tout, mettre de l'espace*/
+.youtube{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 0 1 58%;
+    flex-wrap: wrap;
+    margin: 160px;    
+    position: absolute;
+}
+
+/*Mettre de l'espace entre les video et le mettre au centre*/
+.video1, .video2, .video3, .video4{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 1 26%;
+    flex-wrap: wrap;
+
+}

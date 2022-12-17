@@ -1,0 +1,31 @@
+
+/*Definire le caption*/
+.fig_caption {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /*Le caption change de ligne*/
+  .fig_caption figure {
+    flex: 0 1 200px;
+  }
+  
+  /*Transformation dans l'image*/
+  .fig_caption figure img {
+    /* Transformation origine */
+    transform: scale(1);
+    /* Transition */
+    transition: all 1s;
+  }
+  /* Transformation en passant notre souris sur une image */
+  .fig_caption figure img:hover {
+    transform: scale(1.5);
+  }
+
+  /*Changer la couleur de l'arriere plan, changer la couleur du texte, changer le font*/
+  figcaption{
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

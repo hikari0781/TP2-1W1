@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etape 2 - Lab 9</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/galerie.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/pied-page.css">
+</head>
+<body>
+
+    <!--<audio controls autoplay loop>
+        <source src="music/Titre.mp3" type="audio/mpeg">
+    </audio>-->
+
+    <input type="checkbox" name="" id="chck-burger">
+    <label for="chck-burger" id="burger">
+        
+        <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000000" width="32" height="32">
+    </label>
+
+    <nav class="menu">
+        <a href="#accueil">Accueil</a>
+        <a href="#article">Article</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#inscription">Inscription</a>
+        <a href="#video">Video</a>
+        <a href="#tableau">Tableau</a>
+        <a href="#pied-page">Pied&nbsp;de&nbsp;page</a>
+    </nav>
+
+    <!--(section>h1>lorem2)*5-->
+    <section id="accueil">
+        <div class="titre2">
+            <h2>TP2</h2>
+            <h2>Autrice: Patricia Sichampavone</h2>
+        </div>
+
+        <div class="titre1">
+            <img src="images/Fate_Grand_Order_logo.png" alt="FGO">
+        </div>
+        
+        <div class="titre3"> 
+        <h3>1W1 - Mise en page Web</h3>
+        <h3>Technique d'integration Multimedia</h3>
+        </div>
+
+        <div class="titre4">
+            <h4>College de Maisonneuve</h4>
+            <h4>Automne 2022</h4>
+        </div>
+        </section>
+
+    <section id="article">
+
+        <div class="texte">
+        <p>Fate/Grand Order est un jeu de rôle au tour par tour avec quelques éléments de roman visuel. 
+            Le joueur prend le rôle d'un "maître" et commande un groupe d'individus appelés "serviteurs", 
+            qui sont généralement des personnages historiques, 
+            littéraires et mythologiques de diverses cultures.
+            Vous pouvez choisir le sexe que vous voulez être et également les nommer.
+        </p>
+
+            <p>
+                L'histoire vous a mis dans une installation secrète quelque part dans le monde, nommee Chaldea. 
+                Le joueur n'a aucune idée de l'endroit où il se trouve, mais il sait seulement qu'il a été choisi 
+                pour remplir uniquement le coq du projet.
+            </p>
+            
+            <p>
+                Le début de leur voyage est lorsque tout le groupe de Maîtres est mort dans une explosion soudaine, 
+                le joueur est allé voir s'il y avait des survivants, un seul. Leur tout premier serviteur, nommé Mash Kyrielight.</p>
+
+                <p>Mais avant qu'ils ne rencontrent leur destin, ils ont été envoyés dans le passé grâce à 
+                    une machine capable de lire le futur et le passé.
+
+                    Dans le prologue, vous avez appris que quelqu'un essaie d'incinérer le monde, 
+                    ce qui rend impossible d'avoir un avenir en 2018 (2023).</p>
+        </div>
+
+        <figure>
+            <img src="images/Master.webp" alt="Maitre"
+            height="774" width="513">
+        </figure>
+    </section>
+
+    <section id="galerie">
+
+        <figure class="fig_caption">
+        <figure class="img1">
+            <img src="images/Artoria Pendragon.webp" alt="Artoria Pendragon"
+            height="350" width="250">
+
+        <figcaption>
+            Artoria(Altria) <br>Pendragon </br>
+        </figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Mash Krieligue.webp" alt="Mash"
+            height="350" width="250">
+
+        <figcaption>
+            Mash Kyrielight
+        </figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/astolfo.webp" alt="astolfo"
+            height="350" width="250">
+
+        </img>
+        <figcaption>Astolfo</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/SaberMuramasaStage1.webp" alt="Muramasa"
+            height="350" width="250">
+
+        </img>
+        <figcaption>Senji Muramasa</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/S205_Stage1.webp" alt="Ivan"
+            height="350" width="250">
+
+        </img>
+        <figcaption>Ivan the Terrible</figcaption>
+        </figure>
+
+        <figure>
+            <figcaption>Thomas Edison</figcaption>
+            <img src="images/thomas edison.webp" alt="Thomas Edison"
+            height="350" width="250">
+        </img>
+        
+        </figure>
+    </figure>
+
+    </section>
+
+<!-- ////////////////////// Inscription-->
+<section id="inscription">
+    <h1>Inscription</h1>
+    <div class=""></div>
+    <form>
+      <span class="ligne"></span>
+
+      <div></div>
+      <label for="Nom">Nom
+        <input type="text" name="nom" id="txtNom" />
+      </label>
+
+      <label for="Prenom">Prenom
+        <input type="text" name="prenom" id="txtPrenom" />
+      </label>
+
+      <label for="Mail">Email
+        <input type="email" name="mail" id="txtMail" />
+      </label>
+
+      <span class="ligne"></span>
+      <div class="conditions">
+        <label for="chkCond">
+          Accepter <a href="">termes et conditions</a>
+          <input type="checkbox" name="conditions" id="chkCond" />
+        </label>
+      </div>
+
+      <label for="subEnvoi">
+        <input type="button" name="inscription" id="subEnvoi" onclick="alert('Vous êtes désormais inscrits.')"
+          value="S'inscrire" />
+      </label>
+    </form>
+
+  </section>
+
+    <section id="video">
+        <h1>Video</h1>
+    <div class="youtube">
+        <div class="video1">
+            <iframe width="350" height="350" 
+            src="https://www.youtube.com/embed/qKUtHE-4H0M" 
+            title="FGO Annivesary" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="video2">
+            <iframe width="350" height="350" src="https://www.youtube.com/embed/IeKoaR58wcA" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="video3">
+            <iframe width="350" height="350" src="https://www.youtube.com/embed/TJ--9Xl4a1U" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="video4">
+            <iframe width="350" height="350" src="https://www.youtube.com/embed/pJCCETtOLa4" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    </section>
+    
+    <!-- ///////////////////////////////////// tableau-->
+    <section id="tableau">
+        <table class="tableau">
+            <tr>
+                <th>Rareté</th> 
+                <th>Chance de pourvoir <br> l'avoir par %</th>
+                <th>Essence artisanale <br>(carte)</br></th>
+                <th>Chance de pourvoir <br> l'avoir par %</th>
+            </tr>
+
+            <tr> 
+                <td>5*</td>
+                <td>1.000%</td>
+                <td>5*</td>
+                <td>4.000%</td>
+                
+            </tr>
+
+            <tr>
+                <td>4*</td>
+                <td>3.000%</td>
+                <td>4*</td>
+                <td>12.000%</td>
+            </tr> 
+
+            <tr>
+                <td>3*</td>
+                <td>40.000%</td>
+                <td>3*</td>
+                <td>40.000%</td>
+            </tr>
+        </table>
+    </section>
+
+        
+    <!-- ///////////////////////////////////// pied de page-->
+  <!-- ///////////////////////////////////////////// pied de page -->
+  <footer>
+    <div class="piedUn">
+      <p>3800 R. Sherbrooke E, Montréal, QC H1X 2A2</p>
+      <p>
+        Site du collège:
+        <a target=_blank href="https://www.cmaisonneuve.qc.ca/" target="_blank"
+          >Collège de Maisonneuve</a
+        >
+      </p>
+      <p>
+        Présentation:
+        <a target=_blank href="https://www.youtube.com/watch?v=IPaSD4sQOkg"
+          >Présentation vidéo</a
+        >
+      </p>
+      <div class="sociaux">
+        <p>
+            <img src="https://s2.svgbox.net/social.svg?ic=github&color=fff" 
+            width="32" height="32">:<a target=_blank href="https://github.com/hikari0781">Github</a>
+        </p>
+      </div>
+    </div>
+    <div class="piedDeux">
+      <p>
+        <span>Techniques d'intégration multimédia</span>
+        : Ce programme d'étude technique de niveau collégial au Québec visent
+        à enseigner aux étudiants diverses techniques reliées à la conception
+        et à la production de produits multimédias comme des sites web et des
+        applications mobiles.
+      </p>
+    </div>
+  </footer>
+    
+</body>
+</html>

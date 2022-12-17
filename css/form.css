@@ -1,0 +1,38 @@
+
+/*Changer l'arriere-plan et de couvert toute*/
+#inscription{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1ce7fa6-8ff0-4653-b2ac-2e616c494874/dfkge9v-09bac63d-eeee-4220-b362-210789f86f5e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExY2U3ZmE2LThmZjAtNDY1My1iMmFjLTJlNjE2YzQ5NDg3NFwvZGZrZ2U5di0wOWJhYzYzZC1lZWVlLTQyMjAtYjM2Mi0yMTA3ODlmODZmNWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._c1CHH2WsWLpX6mn-eVniZjdyJZpNPNHCnOe_EjrTvQ');
+    background-size: cover;
+}
+
+/*Mettre la forme dans une boite et changer la couleur de l'arriere plan*/
+#inscription form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;    
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.507);
+border-radius: 10px;
+margin: 17rem;
+width: 43rem;
+color: white;
+height: 22rem;
+}
+
+/*Mettre de l'espace et mettre le texte egal*/
+#inscription form label{
+margin: 10px 0;
+text-align: right;
+}
+
+/*Mettre toute au centre*/
+#inscription form{
+display: flex;
+align-items: center;
+align-content: center;
+}
+
+/*Changer le font-size*/
+.condition{
+font-size: 2rem;
+}
